@@ -62,3 +62,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Features on this app
+
+- Public URL to view all the Announcement
+- Authenticated user can post, update, delete Annoucement
+- Unit Test
+- Cron Job to update the active status of all post dependin on start and end date : `php artisan updateannouncementstatus`
