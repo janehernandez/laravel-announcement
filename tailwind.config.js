@@ -1,8 +1,12 @@
 const plugin = require('tailwindcss/plugin')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: ['./resources/**/*.blade.php', './resources/**/*.js', './resources/**/*.vue'],
   theme: {
+    colors: {
+      ...colors,
+    },
     extend: {
       minHeight: {
         'screen-75': '75vh',
